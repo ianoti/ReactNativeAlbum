@@ -9,21 +9,21 @@ import AlbumList from './src/components/album-list';
 
  // Create a Component
 const App = () => {
-  const { indexViewStyle } = style;
+  // const { indexViewStyle } = style;
   return (
-    <View style={indexViewStyle}>
+    <View >
       <Header headerText={'Albums You Guy My Guy'} />
       <AlbumList />
     </View>
   );
 };
 
-const style = {
-  indexViewStyle: {
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-};
+// const style = {
+//   indexViewStyle: {
+//     alignItems: 'center',
+//     justifyContent: 'center'
+//   }
+// };
 
 // Render it to a device Screen
 AppRegistry.registerComponent('ReactNativeAlbum', () => App);
