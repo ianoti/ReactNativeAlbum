@@ -11,7 +11,7 @@ import AlbumList from './src/components/album-list';
 const App = () => {
   // const { indexViewStyle } = style;
   return (
-    <View >
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums You Guy My Guy'} />
       <AlbumList />
     </View>
